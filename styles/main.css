@@ -117,7 +117,7 @@ li::before{
     display: flex;
     justify-content:space-between;
     width: 100%;
-    height: min-content;
+    
     max-height:10em;
 }
 h2{
