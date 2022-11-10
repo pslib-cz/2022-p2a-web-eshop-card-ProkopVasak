@@ -14,18 +14,18 @@
 }
 .card{
     border: 1px solid lightgray;
-    max-width: 30rem;
-    max-height: 50rem;
+    max-width: 30em;
+    max-height: 50em;
     display: inline-flex;
     margin: 0 ;
     flex-wrap: wrap;
-    
+   
 }
-/*i*/
+
 .card__img{
     width: 100%;
     margin:0;
-    max-height: 30rem;
+    max-height: 30em;
     object-fit: contain;
 }
 p{
@@ -36,22 +36,22 @@ p{
     text-decoration: none;
     font-size: 24px;
     color: #a40033;
-    padding-left: 1rem;
+    padding-left: 1em;
     font-family: Roboto_Medium;
     padding-bottom: 0;
     margin-bottom: 0;
 }
 li{
     
-    padding:0.2rem;
-    padding-left: 1rem;
+    padding:0.2em;
+    padding-left: 1em;
     list-style: none;
     font-family: Roboto_Light;
-    padding-right: 10rem;
+    padding-right: 10em;
 }
 li::before{
     content:" ";
-    margin-right: 1rem;
+    margin-right: .3em;
     display:inline-block;
     width:10px;
     height: 10px;
@@ -61,12 +61,14 @@ li::before{
 .card__body{
     display:flex;
     flex-grow: 1;
+    overflow: hidden;
+    max-height: 10em;
 }
 
 .card_textskrtnuty{
     color:grey;
     font-size: 14px;
-    padding-top: 0.5rem;
+    padding-top: 0.5em;
 }
 
 .card__body{
@@ -81,7 +83,7 @@ li::before{
 }
 
 .card__foottext{
-    padding-left: 1rem;
+    padding-left: 1em;
     display: flex;
     font-family: Roboto_Light;
     margin: 0;
@@ -99,24 +101,24 @@ li::before{
     font-size:14px;
 }
 .card__btn{
-    padding: 1rem 2rem ;
+    padding: 1em 2em ;
     background-color: #a40033;
     text-decoration: none;
     color: #fff;
     font-family: Roboto_Medium; 
 }
 .btn{
-    flex-grow: 1;
     justify-content: right;
     display: flex;
-    margin: 1rem;
-    
+    margin: 1em;
+    flex-direction: flex-end;
 }
 .card__footer{
     display: flex;
     justify-content:space-between;
-    /*width: 100%;
-    height: min-content;*/
+    width: 100%;
+    height: min-content;
+    max-height:10em;
 }
 h2{
     margin-bottom: 0;
