@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "Roboto_Medium";
+    src: url(../fonts/Roboto-Medium.ttf);
+  }
+@font-face {
+    font-family: "Roboto_Light";
+    src: url(../fonts/Roboto-Light.ttf);
+  }
+.cards{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    border: 1px solid lightgray;
+    max-width: 30rem;
+    max-height: 50rem;
+    display: inline-flex;
+    margin: 0 ;
+    flex-wrap: wrap;
+    
+}
+/*i*/
+.card__img{
+    width: 100%;
+    margin:0;
+    max-height: 30rem;
+    object-fit: contain;
+}
+p{
+    margin: 0;
+}
+
+.card__itemname{
+    text-decoration: none;
+    font-size: 24px;
+    color: #a40033;
+    padding-left: 1rem;
+    font-family: Roboto_Medium;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+li{
+    
+    padding:0.2rem;
+    padding-left: 1rem;
+    list-style: none;
+    font-family: Roboto_Light;
+    padding-right: 10rem;
+}
+li::before{
+    content:" ";
+    margin-right: 1rem;
+    display:inline-block;
+    width:10px;
+    height: 10px;
+    background-color:#a40033;
+    border-radius: 10px;
+}
+.card__body{
+    display:flex;
+    flex-grow: 1;
+}
+
+.card_textskrtnuty{
+    color:grey;
+    font-size: 14px;
+    padding-top: 0.5rem;
+}
+
+.card__body{
+    display:flex;
+    flex-grow: 1;
+}
+
+
+
+.card__heading{
+    width: 100%;
+}
+
+.card__foottext{
+    padding-left: 1rem;
+    display: flex;
+    font-family: Roboto_Light;
+    margin: 0;
+    align-content: baseline;
+    flex-direction: column;
+    justify-content: baseline;
+    height: 100%;
+}
+.card_textcena{
+    font-size:21px;
+    color: #a40033;
+}
+.card__dostupnost{
+    color: #028402;
+    font-size:14px;
+}
+.card__btn{
+    padding: 1rem 2rem ;
+    background-color: #a40033;
+    text-decoration: none;
+    color: #fff;
+    font-family: Roboto_Medium; 
+}
+.btn{
+    flex-grow: 1;
+    justify-content: right;
+    display: flex;
+    margin: 1rem;
+    
+}
+.card__footer{
+    display: flex;
+    justify-content:space-between;
+    /*width: 100%;
+    height: min-content;*/
+}
+h2{
+    margin-bottom: 0;
+    margin-left: 0;
+}
